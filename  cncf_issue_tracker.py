@@ -39,7 +39,7 @@ except ImportError:
         "knative-extensions/kn-plugin-quickstart",
         "antrea-io/antrea",
         "antrea-io/antrea-ui",
-        "antrea-io/antrea"
+        "antrea-io/antrea "
     ]
     DEFAULT_CHECK_INTERVAL = 180
     DATABASE_PATH = "cncf_issues.db"
