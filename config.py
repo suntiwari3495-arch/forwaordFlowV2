@@ -3,18 +3,16 @@
 
 # Your 10 repositories to monitor (format: "owner/repo")
 REPOSITORIES = [
-    "open-telemetry/opentelemetry.io",
-    "open-telemetry/opentelemetry-collector-contrib",
-    "open-telemetry/opentelemetry-demo",
-    "open-telemetry/opentelemetry-specification",
-    "open-telemetry/community",
-    "meshery/meshery",
-    "meshery/meshery.io",
-    "layer5io/docs",
-    "kubernetes/website",
-    "kubernetes/community",
-    "kubernetes-sigs/contributor-playground",
-    "kubernetes/enhancements"
+    "litmuschaos/litmus",
+    "litmuschaos/litmus-docs",
+    "litmuschaos/website-litmuschaos",
+    "knative/docs",
+    "knative/website",
+    "knative/community",
+    "knative-extensions/kn-plugin-quickstart",
+    "antrea-io/antrea",
+    "antrea-io/antrea-ui",
+    "antrea-io/antrea "
 ]
 
 # Check interval in seconds (60-240 seconds = 1-4 minutes)

@@ -30,18 +30,16 @@ try:
 except ImportError:
     # Fallback configuration if config.py doesn't exist
     REPOSITORIES = [
-        "open-telemetry/opentelemetry.io",
-        "open-telemetry/opentelemetry-collector-contrib",
-        "open-telemetry/opentelemetry-demo",
-        "open-telemetry/opentelemetry-specification",
-        "open-telemetry/community",
-        "meshery/meshery",
-        "meshery/meshery.io",
-        "layer5io/docs",
-        "kubernetes/website",
-        "kubernetes/community",
-        "kubernetes-sigs/contributor-playground",
-        "kubernetes/enhancements"
+        "litmuschaos/litmus",
+        "litmuschaos/litmus-docs",
+        "litmuschaos/website-litmuschaos",
+        "knative/docs",
+        "knative/website",
+        "knative/community",
+        "knative-extensions/kn-plugin-quickstart",
+        "antrea-io/antrea",
+        "antrea-io/antrea-ui",
+        "antrea-io/antrea"
     ]
     DEFAULT_CHECK_INTERVAL = 180
     DATABASE_PATH = "cncf_issues.db"
