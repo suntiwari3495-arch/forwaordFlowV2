@@ -109,14 +109,7 @@ async def main():
         print("❌ Telegram test failed")
         return
     
-    print("\n🎉 All tests completed!")
-    print("✅ Your bot is ready for deployment to Railway!")
     
-    print("\n📋 Next steps:")
-    print("   1. Push this code to GitHub")
-    print("   2. Deploy to Railway")
-    print("   3. Set environment variables in Railway dashboard")
-    print("   4. Your bot will start monitoring repositories!")
 
 if __name__ == "__main__":
     try:
